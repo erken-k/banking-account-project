@@ -1,0 +1,673 @@
+
+Doe                   Jane       456789012     123123    Savings    8765.43
+Doe                   John       123445678     123456    Savings     200.55
+Doe                   John       123445678     222222         CD    5000.00  8/12/2021
+Beam                   Jim       234556789     567890   Checking    1234.56
+Sawyer                 Tom       456778901     234567         CD     500.00  7/22/2021
+Eyre                  Jane       345667890     987654    Savings       2.33
+Doe                   John       123445678     333333   Checking     999.99
+Finn                  Huck       567889012     654321    Savings     543.66
+Spratt                Jack       678990123     785609    Savings     333.33
+Doe                   Jane       456789012     389765   Checking     888.56
+Finn                  Huck       567889012     345678   Checking     123.98
+***********************************
+
+Sorted By Account Number: 
+
+Doe                   Jane       456789012     123123    Savings    8765.43
+Doe                   John       123445678     123456    Savings     200.55
+Doe                   John       123445678     222222         CD    5000.00  8/12/2021
+Sawyer                 Tom       456778901     234567         CD     500.00  7/22/2021
+Doe                   John       123445678     333333   Checking     999.99
+Finn                  Huck       567889012     345678   Checking     123.98
+Doe                   Jane       456789012     389765   Checking     888.56
+Beam                   Jim       234556789     567890   Checking    1234.56
+Finn                  Huck       567889012     654321    Savings     543.66
+Spratt                Jack       678990123     785609    Savings     333.33
+Eyre                  Jane       345667890     987654    Savings       2.33
+***********************************
+
+Sorted By SSN: 
+
+Doe                   John       123445678     123456    Savings     200.55
+Doe                   John       123445678     222222         CD    5000.00  8/12/2021
+Doe                   John       123445678     333333   Checking     999.99
+Beam                   Jim       234556789     567890   Checking    1234.56
+Eyre                  Jane       345667890     987654    Savings       2.33
+Sawyer                 Tom       456778901     234567         CD     500.00  7/22/2021
+Doe                   Jane       456789012     123123    Savings    8765.43
+Doe                   Jane       456789012     389765   Checking     888.56
+Finn                  Huck       567889012     345678   Checking     123.98
+Finn                  Huck       567889012     654321    Savings     543.66
+Spratt                Jack       678990123     785609    Savings     333.33
+***********************************
+
+Sorted By Name: 
+
+Beam                   Jim       234556789     567890   Checking    1234.56
+Doe                   Jane       456789012     123123    Savings    8765.43
+Doe                   Jane       456789012     389765   Checking     888.56
+Doe                   John       123445678     123456    Savings     200.55
+Doe                   John       123445678     222222         CD    5000.00  8/12/2021
+Doe                   John       123445678     333333   Checking     999.99
+Eyre                  Jane       345667890     987654    Savings       2.33
+Finn                  Huck       567889012     345678   Checking     123.98
+Finn                  Huck       567889012     654321    Savings     543.66
+Sawyer                 Tom       456778901     234567         CD     500.00  7/22/2021
+Spratt                Jack       678990123     785609    Savings     333.33
+***********************************
+
+Sorted By Balance: 
+
+Eyre                  Jane       345667890     987654    Savings       2.33
+Finn                  Huck       567889012     345678   Checking     123.98
+Doe                   John       123445678     123456    Savings     200.55
+Spratt                Jack       678990123     785609    Savings     333.33
+Sawyer                 Tom       456778901     234567         CD     500.00  7/22/2021
+Finn                  Huck       567889012     654321    Savings     543.66
+Doe                   Jane       456789012     389765   Checking     888.56
+Doe                   John       123445678     333333   Checking     999.99
+Beam                   Jim       234556789     567890   Checking    1234.56
+Doe                   John       123445678     222222         CD    5000.00  8/12/2021
+Doe                   Jane       456789012     123123    Savings    8765.43
+***********************************
+
+
+***********************************
+
+Total amount in CD Accounts: 5500.00
+Total Amount in Checking Accounts: 3247.09
+Total Amount in Saving Accounts: 9845.30
+Total Amount in all accounts: 18592.39
+
+***********************************
+Entered value: z is not an option
+Entered value: v is not an option
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Balance Inquiry
+Account number: 123456
+Current Balance: 200.55
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Balance Inquiry
+Account number: 222222
+Current Balance: 5000.00
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Balance Inquiry
+Account number: 987654
+Current Balance: 2.33
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Balance inquiry
+Account number: 999999
+Error: Account 999999 Doesn't exists
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Deposit
+Account number: 123456
+Pre Transaction balance: 200.55
+Transaction amount: 100.25
+Post Transaction balance: 300.80
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Deposit
+Account number: 222222
+Pre Transaction balance: 5000.00
+Transaction amount: 200.55
+Post Transaction balance: 5200.55
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Deposit
+Account number: 222222
+Error: Maturity Date not Reached (6/13/2022)
+***********************************
+
+	***Error Receipt***
+Transaction type: Deposit
+Account number: 999999
+Error: Account 999999  Doesn't exists
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Deposit
+Account number: 123456
+Current balance: 300.80
+Amount of Transaction -75.75
+Error: Invalid number entered
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Withdrawal
+Account number: 333333
+Pre Transaction balance: 999.99
+Transaction amount: 100.25
+Post Transaction balance: 899.74
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Withdrawal
+Account number: 999999
+Error: Account 999999  Doesn't exists
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Withdrawal
+Account number: 987654
+Current balance: 2.33
+Amount of Transaction -20.00
+Error: Invalid number entered
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Withdrawal
+Account number: 987654
+Current balance: 2.33
+Amount of transaction: 100.50
+Error: Insufficient funds
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Withdrawal
+Account number: 234567
+Pre Transaction balance: 500.00
+Transaction amount: 150.00
+Post Transaction balance: 350.00
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Withdrawal
+Account number: 234567
+Error: Maturity Date not Reached (6/13/2023)
+***********************************
+
+	***Error Receipt***
+Transaction type: Account opening 
+Account number: 123456
+Error: Account 123456 Account Already Exists
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Opening
+Account number: 555555
+Pre Transaction balance: 0.00
+Transaction amount: 0.00
+Post Transaction balance: 0.00
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Opening
+Account number: 666666
+Pre Transaction balance: 0.00
+Transaction amount: 1234.56
+Post Transaction balance: 1234.56
+New Maturity Date: 8/3/2022
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Opening
+Account number: 777777
+Pre Transaction balance: 0.00
+Transaction amount: 0.00
+Post Transaction balance: 0.00
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Deposit
+Account number: 555555
+Pre Transaction balance: 0.00
+Transaction amount: 99.99
+Post Transaction balance: 99.99
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Deposit
+Account number: 666666
+Error: Maturity Date not Reached (8/3/2022)
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Deposit
+Account number: 777777
+Pre Transaction balance: 0.00
+Transaction amount: 400.00
+Post Transaction balance: 400.00
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Withdrawal
+Account number: 777777
+Pre Transaction balance: 400.00
+Transaction amount: 125.50
+Post Transaction balance: 274.50
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Account deletion
+Account number: 999999
+Error: Account 999999 Account Doesn't Exist
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Account deletion
+Account number: 987654
+Current balance: 2.33
+Error: Balance not 0
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Withdrawal
+Account number: 987654
+Pre Transaction balance: 2.33
+Transaction amount: 2.33
+Post Transaction balance: 0.00
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Deletion
+Account number: 987654
+Pre Transaction balance: 0.00
+Transaction amount: 0.00
+Post Transaction balance: 0.00
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info
+SSN Searched for: 123445678
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Doe                   John       123445678     123456    Savings     300.80
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Doe                   John       123445678     222222         CD    5200.55  6/13/2022
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Doe                   John       123445678     333333   Checking     899.74
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info
+SSN Searched for: 678990123
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Spratt                Jack       678990123     785609    Savings     333.33
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info
+SSN Searched for: 765443210
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Madison              Dolly       765443210     555555   Checking      99.99
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Madison              Dolly       765443210     777777    Savings     274.50
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+***********************************
+
+	***Error Receipt***
+Transaction type: Account Info with History
+SSN: 888776666
+Error: SSN: 888776666 Depositor Doesn't have any accounts
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info
+SSN Searched for: 668990123
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Madison              James       668990123     666666         CD    1234.56   8/3/2022
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Check Clearance
+Account number: 567890
+Pre Transaction balance: 1234.56
+Transaction amount: 10.50
+Post Transaction balance: 1222.56
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Check Clearance
+Account number: 999999
+Error: Account 999999 Account doesn't exist
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Check Clearance
+Account number: 567890
+Error: Insufficient funds: 2.5$ Overdraft fee has been charged
+***********************************
+
+	***Error Receipt***
+Transaction type: Check Clearance
+Account number: 567890
+Current balance: 1220.06
+Amount of Transaction -5.67
+Error: Invalid number entered
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Check Clearance
+Account number: 567890
+Error: Check is older than 6 month
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Check Clearance
+Account number: 567890
+Error: Check is older than 6 month
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Check Clearance
+Account number: 123456
+Error: Not checking account
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info
+SSN Searched for: 234556789
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Beam                   Jim       234556789     567890   Checking    1220.06
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Deposit
+Account number: 567890
+Pre Transaction balance: 1220.06
+Transaction amount: 100.00
+Post Transaction balance: 1320.06
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Withdrawal
+Account number: 567890
+Pre Transaction balance: 1320.06
+Transaction amount: 20.00
+Post Transaction balance: 1300.06
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Check Clearance
+Account number: 567890
+Pre Transaction balance: 1300.06
+Transaction amount: 30.00
+Post Transaction balance: 1268.56
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Closure
+Account number: 567890
+Pre Transaction balance: 1268.56
+Transaction amount: 0.00
+Post Transaction balance: 1268.56
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info
+SSN Searched for: 234556789
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Beam                   Jim       234556789     567890   Checking    1268.56	closed
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+***********************************
+
+	***Error Receipt***
+Transaction type: Deposit
+Account number: 567890
+Error: Account 567890 Account is closed
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Withdrawal
+Account number: 567890
+Error: Account 567890  Account is closed
+
+***********************************
+
+	***Error Receipt***
+Transaction type: Check Clearance
+Account number: 567890
+Error: Account 567890  Account is closed
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Reopening
+Account number: 567890
+Pre Transaction balance: 1268.56
+Transaction amount: 0.00
+Post Transaction balance: 1268.56
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info
+SSN Searched for: 234556789
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Beam                   Jim       234556789     567890   Checking    1268.56
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Deposit
+Account number: 567890
+Pre Transaction balance: 1268.56
+Transaction amount: 100.00
+Post Transaction balance: 1368.56
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Withdrawal
+Account number: 567890
+Pre Transaction balance: 1368.56
+Transaction amount: 20.00
+Post Transaction balance: 1348.56
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Check Clearance
+Account number: 567890
+Pre Transaction balance: 1348.56
+Transaction amount: 30.00
+Post Transaction balance: 1317.06
+
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info With History
+SSN Searched for: 123445678
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Doe                   John       123445678     123456    Savings     300.80
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	***History of Transactions***	
+Date                       Type  Account #       Balance before        Amount of t-n        Balance After    Completion Status    New Maturity Date 
+12/13/2021      Account Opening     123456                 0.00               200.55               200.55           Successful
+12/13/2021      Balance Inquiry     123456               200.55                 0.00               200.55           Successful
+12/13/2021              Deposit     123456               200.55               100.25               300.80           Successful
+
+	***End of Transaction History***	
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Doe                   John       123445678     222222         CD    5200.55  6/13/2022
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	***History of Transactions***	
+Date                       Type  Account #       Balance before        Amount of t-n        Balance After    Completion Status    New Maturity Date 
+12/13/2021      Account Opening     222222                 0.00              5000.00              5000.00           Successful          12/13/2021
+12/13/2021      Balance Inquiry     222222              5000.00                 0.00              5000.00           Successful          12/13/2021
+12/13/2021              Deposit     222222              5000.00               200.55              5200.55           Successful           6/13/2022
+
+	***End of Transaction History***	
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Doe                   John       123445678     333333   Checking     899.74
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	***History of Transactions***	
+Date                       Type  Account #       Balance before        Amount of t-n        Balance After    Completion Status    New Maturity Date 
+12/13/2021      Account Opening     333333                 0.00               999.99               999.99           Successful
+12/13/2021           Withdrawal     333333               999.99               100.25               899.74           Successful
+
+	***End of Transaction History***	
+***********************************
+	***Transaction Receipt***	
+Transaction Type: Account Info With History
+SSN Searched for: 234556789
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Beam                   Jim       234556789     567890   Checking    1317.06
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	***History of Transactions***	
+Date                       Type  Account #       Balance before        Amount of t-n        Balance After    Completion Status    New Maturity Date 
+12/13/2021      Account Opening     567890                 0.00              1234.56              1234.56           Successful
+12/13/2021      Check Clearance     567890              1234.56                10.50              1222.56           Successful
+12/13/2021      Check Clearance     567890              1222.56              7000.00              1220.06         Unsuccessful
+12/13/2021        Overdraft fee     567890              1222.56                 2.50              1220.06           Successful
+12/13/2021              Deposit     567890              1220.06               100.00              1320.06           Successful
+12/13/2021           Withdrawal     567890              1320.06                20.00              1300.06           Successful
+12/13/2021      Check Clearance     567890              1300.06                30.00              1268.56           Successful
+12/13/2021      Account Closure     567890              1268.56                 0.00              1268.56           Successful
+12/13/2021    Account Reopening     567890              1268.56                 0.00              1268.56           Successful
+12/13/2021              Deposit     567890              1268.56               100.00              1368.56           Successful
+12/13/2021           Withdrawal     567890              1368.56                20.00              1348.56           Successful
+12/13/2021      Check Clearance     567890              1348.56                30.00              1317.06           Successful
+
+	***End of Transaction History***	
+
+Unsorted Database of Accounts: 
+
+Doe                   Jane       456789012     123123    Savings    8765.43
+Doe                   John       123445678     123456    Savings     300.80
+Doe                   John       123445678     222222         CD    5200.55  6/13/2022
+Beam                   Jim       234556789     567890   Checking    1317.06
+Sawyer                 Tom       456778901     234567         CD     350.00  6/13/2023
+Madison              Dolly       765443210     555555   Checking      99.99
+Doe                   John       123445678     333333   Checking     899.74
+Finn                  Huck       567889012     654321    Savings     543.66
+Spratt                Jack       678990123     785609    Savings     333.33
+Doe                   Jane       456789012     389765   Checking     888.56
+Finn                  Huck       567889012     345678   Checking     123.98
+Madison              James       668990123     666666         CD    1234.56   8/3/2022
+Madison              Dolly       765443210     777777    Savings     274.50
+***********************************
+
+Sorted By Account Number: 
+
+Doe                   Jane       456789012     123123    Savings    8765.43
+Doe                   John       123445678     123456    Savings     300.80
+Doe                   John       123445678     222222         CD    5200.55  6/13/2022
+Sawyer                 Tom       456778901     234567         CD     350.00  6/13/2023
+Doe                   John       123445678     333333   Checking     899.74
+Finn                  Huck       567889012     345678   Checking     123.98
+Doe                   Jane       456789012     389765   Checking     888.56
+Madison              Dolly       765443210     555555   Checking      99.99
+Beam                   Jim       234556789     567890   Checking    1317.06
+Finn                  Huck       567889012     654321    Savings     543.66
+Madison              James       668990123     666666         CD    1234.56   8/3/2022
+Madison              Dolly       765443210     777777    Savings     274.50
+Spratt                Jack       678990123     785609    Savings     333.33
+***********************************
+
+Sorted By SSN: 
+
+Doe                   John       123445678     123456    Savings     300.80
+Doe                   John       123445678     222222         CD    5200.55  6/13/2022
+Doe                   John       123445678     333333   Checking     899.74
+Beam                   Jim       234556789     567890   Checking    1317.06
+Sawyer                 Tom       456778901     234567         CD     350.00  6/13/2023
+Doe                   Jane       456789012     123123    Savings    8765.43
+Doe                   Jane       456789012     389765   Checking     888.56
+Finn                  Huck       567889012     345678   Checking     123.98
+Finn                  Huck       567889012     654321    Savings     543.66
+Madison              James       668990123     666666         CD    1234.56   8/3/2022
+Spratt                Jack       678990123     785609    Savings     333.33
+Madison              Dolly       765443210     555555   Checking      99.99
+Madison              Dolly       765443210     777777    Savings     274.50
+***********************************
+
+Sorted By Name: 
+
+Beam                   Jim       234556789     567890   Checking    1317.06
+Doe                   Jane       456789012     123123    Savings    8765.43
+Doe                   Jane       456789012     389765   Checking     888.56
+Doe                   John       123445678     123456    Savings     300.80
+Doe                   John       123445678     222222         CD    5200.55  6/13/2022
+Doe                   John       123445678     333333   Checking     899.74
+Finn                  Huck       567889012     345678   Checking     123.98
+Finn                  Huck       567889012     654321    Savings     543.66
+Madison              Dolly       765443210     555555   Checking      99.99
+Madison              Dolly       765443210     777777    Savings     274.50
+Madison              James       668990123     666666         CD    1234.56   8/3/2022
+Sawyer                 Tom       456778901     234567         CD     350.00  6/13/2023
+Spratt                Jack       678990123     785609    Savings     333.33
+***********************************
+
+Sorted By Balance: 
+
+Madison              Dolly       765443210     555555   Checking      99.99
+Finn                  Huck       567889012     345678   Checking     123.98
+Madison              Dolly       765443210     777777    Savings     274.50
+Doe                   John       123445678     123456    Savings     300.80
+Spratt                Jack       678990123     785609    Savings     333.33
+Sawyer                 Tom       456778901     234567         CD     350.00  6/13/2023
+Finn                  Huck       567889012     654321    Savings     543.66
+Doe                   Jane       456789012     389765   Checking     888.56
+Doe                   John       123445678     333333   Checking     899.74
+Madison              James       668990123     666666         CD    1234.56   8/3/2022
+Beam                   Jim       234556789     567890   Checking    1317.06
+Doe                   John       123445678     222222         CD    5200.55  6/13/2022
+Doe                   Jane       456789012     123123    Savings    8765.43
+***********************************
+
+
+***********************************
+
+Total amount in CD Accounts: 6785.11
+Total Amount in Checking Accounts: 3329.33
+Total Amount in Saving Accounts: 10217.72
+Total Amount in all accounts: 20332.16
+
+***********************************
